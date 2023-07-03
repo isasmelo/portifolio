@@ -10,22 +10,22 @@
   --fonte-secundaria: "Krona One", sans-serif;
   --fonte-terciaria: "Fira Sans", sans-serif;
 
-  --label-icon: url(assets/sun.svg);
+  --label-icon: url(/assets/sun.svg);
   --highlight-color: #ffffff33;
 
-  --icon-calendar: url(assets/calendar-dark.svg);
-  --icon-location: url(assets/location-dark.svg);
+  --icon-calendar: url(/assets/calendar-dark.svg);
+  --icon-location: url(/assets/location-dark.svg);
 }
 .light {
-  --label-icon: url(assets/moon-sharp.svg);
+  --label-icon: url(/assets/moon-sharp.svg);
   --cor-primaria: #fafafa;
   --cor-secundaria: #191919;
   --cor-terciaria: #5435d0;
   --cor-hover: #e8e8e8;
   --highlight-color: #00000033;
 
-  --icon-calendar: url(assets/calendar-light.svg);
-  --icon-location: url(assets/location-light.svg);
+  --icon-calendar: url(/assets/calendar-light.svg);
+  --icon-location: url(/assets/location-light.svg);
 }
 
 * {
