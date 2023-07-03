@@ -309,4 +309,7 @@ body {
   .container {
     width: auto;
   }
+  .info__content__item{
+    width: auto;
+  }
 }
