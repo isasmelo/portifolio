@@ -53,7 +53,7 @@ body {
 .logo {
   color: var(--cor-primaria);
   font-family: var(--fonte-secundaria);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 .nav__list {
@@ -61,12 +61,12 @@ body {
   flex-direction: row;
   justify-content: center;
   list-style: none;
-  gap: 40px;
+  gap: 60px;
   /* border: 1px solid red; */
 }
 .nav__link {
   color: var(--cor-primaria);
-  font-size: 1.37rem;
+  font-size: 1.2rem;
   font-family: var(--fonte-primaria);
   font-weight: 500;
   text-decoration: none;
@@ -87,8 +87,8 @@ body {
   position: absolute;
   cursor: pointer;
   border-radius: 9999px;
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
 }
 .mudar__tema__button:hover {
   outline: 8px solid var(--highlight-color);
@@ -216,16 +216,16 @@ body {
   /* border: 1px solid red; */
 }
 .info__content__item__title {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 .info__content__item__second__title {
-  font-size: 1.12rem;
+  font-size: 0.9rem;
   font-weight: 500;
 }
 .info__content__item__third__title {
   font-weight: 300;
-  font-size: 1.12rem;
+  font-size: 0.9rem;
   display: flex;
   flex-direction: row;
   gap: 6px;
@@ -247,7 +247,7 @@ body {
 .info__content__item__text {
   margin-top: 2%;
   font-weight: 400;
-  font-size: 1.12rem;
+  font-size: 0.9rem;
 }
 .destaque__info {
   font-weight: 500;
