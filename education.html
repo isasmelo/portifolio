@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projetos</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+
+  <body>
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+      <nav class="nav__bar">
+        <h1 class="logo">Portifólio</h1>
+        <!-- MENU NAVEGAÇÃO  -->
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="index.html">Menu</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="about.html">Sobre mim</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="education.html">Educação</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="">Projetos</a>
+          </li>
+        </ul>
+        <!-- BUTÃO MUDAR TEMA -->
+        <div class="mudar__tema">
+          <input id="btn" type="button" />
+          <label for="btn" class="mudar__tema__button"></label>
+        </div>
+        <!-- BUTÃO MENU MOBILE -->
+        <button class="mobile__menu__icon" onclick="menuShow()">
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+        </button>
+      </nav>
+    </header>
+    <!-- APRESENTAÇÃO  -->
+    <main class="apresentacao">
+      <!-- CONTEUDOS -->
+      <section class="info__content">
+        <!-- CONTAINER EDUCAÇÃO  -->
+        <div class="container">
+          <h1 class="info__content__title">Educação</h1>
+          <div class="info__content__item">
+            <h2 class="info__content__item__title">
+              Bacharelado em engenharia elétrica
+              <h3 class="info__content__item__second__title">
+                Universidade Federal do Piauí
+              </h3>
+            </h2>
+            <h4 class="info__content__item__third__title">
+              <div class="icon__calendario"></div>
+              <p>08/2017 - PRESENT</p>
+              <div class="icon__local"></div>
+              <p>TERESINA , BRASIL</p>
+            </h4>
+            <p class="info__content__item__text">
+              Relevâncias do curso: <br />
+              <strong class="destaque__info">DIGITAL:</strong> Design Avançado
+              de Lógica Digital, Microprocessadores, Arquitetura de Computadores
+              <br />
+              <strong class="destaque__info">SOFTWARE:</strong> Estruturas de
+              Dados, Programação C++ e MATLAB.<br />
+              <strong class="destaque__info"> SINAIS:</strong> Sistemas de
+              Comunicação, Processamento de Sinal Digital, Sistemas de Controle
+              <br />
+              <strong class="destaque__info">GESTÃO:</strong> Gestão de
+              Engenharia, Liderança em Engenharia e Ética
+            </p>
+          </div>
+        </div>
+        <!-- CONTAINER CERTIFICADOS  -->
+        <div class="container">
+          <h1 class="info__content__title">Certificados</h1>
+          <div class="info__content__item">
+            <h2 class="info__content__item__title">
+              HTML E CSS: CLASSES, POSICIONAMENTO E FLEXBOX
+              <h3 class="info__content__item__second__title">
+                Curso online - Alura
+              </h3>
+            </h2>
+            <h4 class="info__content__item__third__title">
+              <div class="icon__calendario"></div>
+              <p>2023</p>
+            </h4>
+          </div>
+          <div class="info__content__item">
+            <h2 class="info__content__item__title">
+              HTML E CSS: CABEÇALHO, FOOTER E VARIÁVEIS CSS
+              <h3 class="info__content__item__second__title">
+                Curso online - Alura
+              </h3>
+            </h2>
+            <h4 class="info__content__item__third__title">
+              <div class="icon__calendario"></div>
+              <p>2023</p>
+            </h4>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="rodape">
+      <p>Desenvolvido por IsaSMelo</p>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

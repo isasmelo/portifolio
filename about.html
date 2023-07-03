@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sobre Mim</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+
+  <body>
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+      <nav class="nav__bar">
+        <h1 class="logo">Portifólio</h1>
+        <!-- MENU NAVEGAÇÃO  -->
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="index.html">Menu</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="about.html">Sobre mim</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="education.html">Educação</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="">Projetos</a>
+          </li>
+        </ul>
+        <!-- BUTÃO MUDAR TEMA -->
+        <div class="mudar__tema">
+          <input id="btn" type="button" />
+          <label for="btn" class="mudar__tema__button"></label>
+        </div>
+        <!-- BUTÃO MENU MOBILE -->
+        <button class="mobile__menu__icon" onclick="menuShow()">
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+        </button>
+      </nav>
+    </header>
+    <!-- APRESENTAÇÃO  -->
+    <main class="apresentacao">
+      <section class="apresentacao__content">
+        <h1 class="apresentacao__content__title">Sobre Mim</h1>
+        <p class="apresentacao__content__text">
+          Sou uma estudante esforçada e dedicada aos meus estudos. Estou sempre buscando
+          novos desafios e formas de aplicar minhas habilidades em um contexto
+          profissional. Possuo graduação em andamento em Engenharia Elétrica,
+          mas também tenho e nutro interesse em desenvolvimento de software. Por
+          isso, faço cursos e bootcamps de programação para me atualizar e
+          aperfeiçoar as minhas competências.
+        </p>
+        <p class="apresentacao__content__text">
+          Sou uma pessoa empática e boa ouvinte, que gosta de trabalhar em
+          equipe e trocar ideias com outras pessoas. Acho que isso enriquece o
+          trabalho e leva a soluções mais criativas e eficientes.
+        </p>
+        <p class="apresentacao__content__text">
+          Além dos estudos, um dos meus hobbies é fazer academia. Eu valorizo
+          muito a saúde física e mental, e a academia me ajuda a relaxar e a
+          manter o foco. Também reflete meu comprometimento, disciplina e
+          determinação.
+        </p>
+      </section>
+      <img class="apresentacao__img" src="assets/teste2.jpg" alt="Notebook e tv para programação" />
+    </main>
+
+    <footer class="rodape">
+      <p>Desenvolvido por IsaSMelo</p>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
