@@ -259,6 +259,7 @@ body {
   .apresentacao {
     flex-direction: column-reverse;
     padding: 5%;
+    margin: 5%;
   }
   .apresentacao__content {
     width: auto;
