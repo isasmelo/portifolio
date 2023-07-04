@@ -24,8 +24,8 @@
   --cor-hover: #e8e8e8;
   --highlight-color: #00000033;
 
-  --icon-calendar: url('/assets/calendar-light.svg');
-  --icon-location: url('/assets/location-light.svg');
+  --icon-calendar: url("/assets/calendar-light.svg");
+  --icon-location: url("/assets/location-light.svg");
 }
 
 * {
@@ -264,6 +264,9 @@ body {
   .apresentacao__content {
     width: auto;
   }
+  .apresentacao__img {
+    width: 75%;
+  }
   .nav__list {
     display: none;
   }
@@ -309,7 +312,7 @@ body {
   .container {
     width: auto;
   }
-  .info__content__item{
+  .info__content__item {
     width: auto;
   }
 }
