@@ -20,7 +20,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 O Portifólio é uma apresentação do profissional, de suas abilidades e seus principais projetos.
-- [Acesse o projeto finalizado, online](https://isasmelo.github.io/portifolio/)
 
 
 ## 🔖 Layout
