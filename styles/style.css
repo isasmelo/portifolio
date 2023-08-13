@@ -80,7 +80,7 @@ body {
   display: flex;
   align-items: center;
 }
-.mudar__tema__button {
+/* .mudar__tema__button {
   background: var(--cor-terciaria) var(--label-icon) no-repeat center;
   padding: 5px;
   background-size: 30px;
@@ -93,7 +93,7 @@ body {
 .mudar__tema__button:hover {
   outline: 8px solid var(--highlight-color);
   transition: outline 0.2s;
-}
+} */
 #btn {
   display: none;
 }
